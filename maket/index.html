@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Granit Moldova</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+</head>
+<body>
+    <header>
+       <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+           <div class="container">
+                <a href="">
+                    <img class="navbar-brand mr-sm-5" src="/maket/img/logo.png" alt="">
+                </a>
+
+                <ul class="navbar-nav mr-md-5">
+                    <li class="nav-item active"><a class="nav-link btn btn-sm btn-secondary p-2 mr-3" href="tel:+37379123456">+373 79 123-456</a></li>
+                    <li class="nav-item d-none d-lg-block"><a class="nav-link" href=""><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="nav-item d-none d-lg-block"><a class="nav-link" href=""><i class="fas fa-envelope"></i></a></li>
+                    <li class="nav-item d-none d-lg-block"><a class="nav-link" href=""><i class="fab fa-viber"></i></a></li>
+                </ul>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navcollapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="navcollapse" class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav ml-auto flex mt-3">
+                        <li class="nav-item active"><a class="nav-link text-uppercase" href="">Главная</a></li>
+                        <li class="nav-item"></li><a class="nav-link text-uppercase" href="">Камень</a></li>
+                        <li class="nav-item"></li><a class="nav-link text-uppercase" href="">Изделия</a></li>
+                        <li class="nav-item"></li><a class="nav-link text-uppercase" href="">Наши работы</a></li>
+                        <li class="nav-item"></li><a class="nav-link text-uppercase" href="">Контакты</a></li>
+                    </ul>
+                    
+                    <ul class="navbar-nav ml-auto flex flex-row">
+                        <li class="nav-item d-lg-none p-2"><a class="nav-link" href=""><i class="fab fa-facebook-f text-warning"></i></a></li>
+                        <li class="nav-item d-lg-none p-2"><a class="nav-link" href=""><i class="fas fa-envelope text-warning"></i></a></li>
+                        <li class="nav-item d-lg-none p-2"><a class="nav-link" href=""><i class="fab fa-viber text-warning"></i></a></li>
+                    </ul>    
+
+                </div>
+           </div>
+       </nav>
+
+       <section id="Main-slider">
+        <div id="slider" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="bg-dark" src="img/slide1-min.jpg" alt="slide 1">
+
+                  <div class="carousel-caption">
+                    <h1 class="text-uppercase">Природный камень в Молдове</h1>
+                    <p class="text-uppercase h5 mb-4">Красивый, прочный и морозоустойчивый материал</p>
+                    <div class="row">
+                         <div class="card col-12 col-lg-6 mr-5">
+                            <div class="card-body text-left">
+                            <h4 class="card-title text-warning text-uppercase h3"> Натуральный гранит</h4>
+                            <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur explicabo sequi laudantium perferendis voluptates quo minima unde odit quos placeat asperiores quasi vero natus ipsa commodi suscipit quam inventore illum corrupti, labore tenetur. Dolores sit itaque repudiandae, voluptatibus corrupti reiciendis eius soluta exercitationem commodi error a eum eligendi numquam dolore?</p>
+                            <a href="#" class="card-link btn btn-lg btn-info">ИЗДЕЛИЯ ИЗ ГРАНИТА</a>
+                            <a href="tel:+37379469318" class="card-link phone mr-auto btn btn-warning btn-lg"><i class="fas fa-phone-volume align-middle text-dark"></i> 079 469-318 </a>
+                            </div>
+                        </div>
+
+                        <div class="catalog-order col-12 col-md-5 mt-3">
+                            <h4 class="text-uppercase p-2"> <a href="" data-toggle="modal" data-target="#order-modal" class="btn btn-info btn-lg">Получить каталог</a></h4>
+                            <form>
+                            <div class="form-group">
+                                 <input type="name" class="form-control" id="exampleInputName1" placeholder="Ваше имя">
+                             </div>
+                             <div class="form-group">
+                                 <input type="phone" class="form-control" id="exampleInputPhone1" aria-describedby="emailHelp" placeholder="Ваш номер телефона">
+                             </div>
+                             <div class="form-group">
+                                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваш email">
+                             </div>
+                           <button type="submit" class="btn btn-info">ОТПРАВИТЬ</button>
+                       </form>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <img src="img/slide2-min.jpg" alt="slide 2">
+
+                  <div class="carousel-caption">
+                    <h1 class="text-uppercase">Природный камень в Молдове</h1>
+                    <p class="text-uppercase h5 mb-4">Красивый, прочный и морозоустойчивый материал</p>
+                    <div class="row">
+                         <div class="card col-12 col-lg-6 mr-5">
+                            <div class="card-body text-left">
+                            <h4 class="card-title text-warning text-uppercase h3"> Натуральный мрамор</h4>
+                            <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur explicabo sequi laudantium perferendis voluptates quo minima unde odit quos placeat asperiores quasi vero natus ipsa commodi suscipit quam inventore illum corrupti, labore tenetur. Dolores sit itaque repudiandae, voluptatibus corrupti reiciendis eius soluta exercitationem commodi error a eum eligendi numquam dolore?</p>
+                            <a href="#" class="card-link btn btn-lg btn-info">ИЗДЕЛИЯ ИЗ МРАМОРА</a>
+                            <a href="tel:+37379469318" class="card-link phone mr-auto btn btn-warning btn-lg"><i class="fas fa-phone-volume align-middle text-dark"></i> 079 469-318 </a>
+                            </div>
+                        </div>
+
+                        <div class="catalog-order col-12 col-md-5 mt-3">
+                            <h4 class="text-uppercase p-2"> <a href="" data-toggle="modal" data-target="#order-modal" class="btn btn-info btn-lg">Получить каталог</a></h4>
+                            <form>
+                            <div class="form-group text-warning">
+                                 <input type="name" class="form-control" id="exampleInputName1" placeholder="Ваше имя">
+                             </div>
+                             <div class="form-group">
+                                 <input type="phone" class="form-control" id="exampleInputPhone1" aria-describedby="emailHelp" placeholder="Ваш номер телефона">
+                             </div>
+                             <div class="form-group">
+                                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваш email">
+                             </div>
+                           <button type="submit" class="btn btn-info">ОТПРАВИТЬ</button>
+                       </form>
+                    </div>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="img/slide3-min.jpg" alt="slide 3">
+
+                <div class="carousel-caption">
+                  <h1 class="text-uppercase">Природный камень в Молдове</h1>
+                  <p class="text-uppercase h5 mb-4">Красивый, прочный и морозоустойчивый материал</p>
+                  <div class="row">
+                       <div class="card col-12 col-lg-6 mr-5">
+                          <div class="card-body text-left">
+                          <h4 class="card-title text-warning text-uppercase h3"> Натуральный травертин</h4>
+                          <p class="card-text text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur explicabo sequi laudantium perferendis voluptates quo minima unde odit quos placeat asperiores quasi vero natus ipsa commodi suscipit quam inventore illum corrupti, labore tenetur. Dolores sit itaque repudiandae, voluptatibus corrupti reiciendis eius soluta exercitationem commodi error a eum eligendi numquam dolore?</p>
+                          <a href="#" class="card-link btn btn-lg btn-info">ИЗДЕЛИЯ ИЗ ТРАВЕРТИНА</a>
+                          <a href="tel:+37379469318" class="card-link phone mr-auto btn btn-warning btn-lg"><i class="fas fa-phone-volume align-middle text-dark"></i> 079 469-318 </a>
+                          </div>
+                      </div>
+
+                      <div class="catalog-order col-12 col-md-5 mt-3">
+                            <h4 class="text-uppercase p-2"> <a href="" data-toggle="modal" data-target="#order-modal" class="btn btn-info btn-lg">Получить каталог</a></h4>
+                            <form>
+                            <div class="form-group">
+                                 <input type="name" class="form-control" id="exampleInputName1" placeholder="Ваше имя">
+                             </div>
+                             <div class="form-group">
+                                 <input type="phone" class="form-control" id="exampleInputPhone1" aria-describedby="emailHelp" placeholder="Ваш номер телефона">
+                             </div>
+                             <div class="form-group">
+                                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваш email">
+                             </div>
+                           <button type="submit" class="btn btn-info">ОТПРАВИТЬ</button>
+                       </form>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#slider" data-slide-to="0" class="active"></li>
+              <li data-target="#slider" data-slide-to="1"></li>
+              <li data-target="#slider" data-slide-to="2"></li>
+            </ul>
+          
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev d-none d-lg-flex" href="#slider" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next d-none d-lg-flex" href="#slider" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+       </section>
+    </header>
+
+    <section class="container content">
+        <h1 class="text-uppercase mt-5 text-center pb-4">
+            Натуральный камень
+        </h1>
+        <p class="text-justify">
+            Мы успешно поставляем натуральный камень по всей территории Республики Молдова. Предлагаем по доступным ценам востребованные в строительстве материалы: <a class="font-weight-bolder" href="">ГРАНИТ</a>, <a class="font-weight-bolder" href="">МРАМОР</a>, <a class="font-weight-bolder" href="">ТРАВЕРТИН</a> .
+            Основной акцент нашего производства – изготовление изделий из природного камня: лестницы, ступени, столешницы, подоконники, плитка, напольные покрытия, памятники и мемориальные комплексы из чёрного, красного и серого гранита.
+            Наши услуги в доступных ценовых диапазонах, позволяют легко оформить внешний вид зданий, жилых домов, офисов, внутреннюю отделку квартир, общественных помещений. Доверяйте профессионалам!
+        </p>
+    </section>
+        
+        
+    <section id="advantages" class="container content">
+        <div class="pt-5">
+            <h4 class="text-center text-uppercase pb-4">Наши преимущества</h4>
+            <div class="row d-flex justify-content-between">
+                <ul class="list-group col-md-6 col-lg-3 pb-4">
+                    <li class="list-group-item text-center">
+                        <i class="far fa-check-circle h1 bg-primary p-3 rounded-circle text-light mb-4"></i>
+                        <h5>Опыт</h5>
+                        <p class="">Натуральный камень и его обработка – требует большого опыта и глубоких знаний. В нашей команде работают профессионалы!</p>
+                    </li>
+                </ul>
+                <ul class="list-group col-md-6 col-lg-3 pb-4">
+                    <li class="list-group-item text-center">
+                        <i class="far fa-thumbs-up h1 bg-info p-3 rounded-circle text-light mb-4"></i>
+                        <h5>Репутация</h5>
+                        <p class="">Честные партнёрские отношения, гарантия, доставка, правильная консультация, позволяют нам оставаться в лидерах!</p>
+                    </li class="list-group-item text-center">
+                </ul>
+                <ul class="list-group col-md-6 col-lg-3 pb-4">
+                    <li class="list-group-item text-center">
+                        <i class="fas fa-tags h1 bg-warning p-3 rounded-circle text-light mb-4" ></i>
+                        <h5>Цены</h5>
+                        <p class="">Широкий ассортимент, профессионализм, собственное производство, позволяют нам устанавливать привлекательные цены!</p>
+                    </li>
+                </ul>
+                <ul class="list-group col-md-6 col-lg-3 pb-4">
+                    <li class="list-group-item text-center">
+                        <i class="fas fa-truck h1 bg-success p-3 rounded-circle text-light mb-4"></i>
+                        <h5>Доставка</h5>
+                        <p class=""> Доставка и установка каменных изделий осуществляется в оговоренные сроки по всей Республике Молдова.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="container content pt-5 pb-5">
+        <h4 class="text-center text-uppercase pb-2">Изделия из натурального камня на заказ</h4>
+        <p class="text-center pb-4">Неповторимый стиль и несравнимая с любым другим материалом долговечность использования.</p>
+
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow text-center mr-3 mb-3 w-100">
+                        <a href=""><img src="img/foto1.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                    <h5 class="card-title text-justify text-center text-uppercase"> <a href="">Столешницы</a> </h5>
+                    <p class="card-text">Стильный, практичный и долговечным элемент кухонного гарнитура.</p>
+                    <a href="#" class="btn btn-info text-uppercase">узнать цену</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow text-center mr-3 mb-3 w-100">
+                        <a href=""><img src="img/foto2.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                    <h5 class="card-title text-justify text-center text-uppercase"> <a href="">Подоконники</a> </h5>
+                    <p class="card-text">Совершенный вид, долговечные и практичные характеристики.</p>
+                    <a href="#" class="btn btn-info text-uppercase">узнать цену</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow text-center mr-3 mb-3 w-100">
+                        <a href=""><img src="img/foto3.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                    <h5 class="card-title text-justify text-center text-uppercase"> <a href="">Отливы</a> </h5>
+                    <p class="card-text">Помимо важной практичной функции, отлив придаёт фасаду завершенный вид.</p>
+                    <a href="#" class="btn btn-info text-uppercase">узнать цену</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow text-center mr-3 mb-3 w-100">
+                        <a href=""><img src="img/foto4.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                    <h5 class="card-title text-justify text-center text-uppercase"> <a href="">Камины</a> </h5>
+                    <p class="card-text">Каменная облицовка – оригинальное решение современного интерьера.</p>
+                    <a href="#" class="btn btn-info text-uppercase">узнать цену</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow text-center mr-3 mb-3 w-100">
+                        <a href=""><img src="img/foto5.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                    <h5 class="card-title text-justify text-center text-uppercase"> <a href="">Лестницы</a> </h5>
+                    <p class="card-text">Долговечное, практичное и респектабельное решение.</p>
+                    <a href="#" class="btn btn-info text-uppercase">узнать цену</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow text-center mr-3 mb-3 w-100">
+                        <a href=""><img src="img/foto6.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                    <h5 class="card-title text-justify text-center text-uppercase"> <a href="">Гранитные памятники</a> </h5>
+                    <p class="card-text">Полный комплекс услуг от изготовления до установки.</p>
+                    <a href="#" class="btn btn-info text-uppercase">узнать цену</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow text-center mr-3 mb-3 w-100">
+                        <a href=""><img src="img/foto7.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                    <h5 class="card-title text-justify text-center text-uppercase"> <a href="">Столешницы под мойку</a> </h5>
+                    <p class="card-text">Незаменимый атрибут любой современной кухни или ванной.</p>
+                    <a href="#" class="btn btn-info text-uppercase">узнать цену</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow text-center mr-3 mb-3 w-100">
+                        <a href=""><img src="img/foto8.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                    <h5 class="card-title text-justify text-center text-uppercase"> <a href="">Плинтуса</a> </h5>
+                    <p class="card-text">Плинтуса – финишный акцент в отделке любого помещения.</p>
+                    <a href="#" class="btn btn-info text-uppercase">узнать цену</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow text-center mr-3 mb-3 w-100">
+                        <a href=""><img src="img/foto9.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                    <h5 class="card-title text-justify text-center text-uppercase"> <a href="">Тротуарная плитка</a> </h5>
+                    <p class="card-text">Долговечное, прочное и доступное по цене дорожное покрытие.</p>
+                    <a href="#" class="btn btn-info text-uppercase">узнать цену</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="delivery-wrapper">
+        <section class="delivery container content p-2 pt-lg-5">
+                <div class="row">
+                    <div class="col-12 col-lg-5">
+                        <figure>
+                            <img class="image-fluid w-100" src="/maket/img/delivery.jpg" alt="">
+                        </figure>
+                    </div>
+                    <div class="col-12 col-lg-7">
+                        <h4 class="text-uppercase text-center pb-4">Монтажные работы и доставка по всей Молдове</h4>
+                        <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Большой запятых прямо грустный всеми мир имеет своего журчит единственное?</p>
+                        <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Снова рукопись выйти пор родного взгляд грустный жизни буквоград рыбными.</p>
+                        <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Снова рукопись выйти пор родного взгляд грустный жизни буквоград рыбными.</p>
+
+                    </div>
+                </div>
+        </section>
+    </div>
+
+    <section class="calculation container content p-2">
+        <h4 class="text-uppercase text-center pt-5 pb-4">Заказать расчет материалов</h4>
+                <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Приставка бросил домах грустный даже текста заманивший своего имени то?</p>
+                <div class="row">
+                        <div class="col-12 col-lg-6 order-2 order-lg-1">
+                            <p>Заполните форму обратной связи, и мы свяжемся с Вами</p>
+                            <form>
+                                <div class="form-group">
+                                    <input type="name" class="form-control" id="exampleInputName1" placeholder="Ваше имя">
+                                </div>
+    
+                                <div class="form-group">
+                                    <input type="phone" class="form-control" id="exampleInputPhone1" aria-describedby="emailHelp" placeholder="Ваш номер телефона (+373) xx-xx-xx-xx">
+                                </div>
+    
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваш e-mail">
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                </div>
+    
+                                <button type="submit" class="btn btn-info">ОТПРАВИТЬ</button>
+                            </form>
+                        </div>
+    
+                        <div class="col-12 col-lg-6 order-1 order-lg-2">
+                            <picture class="col-12 col-lg-5 order-1 order-lg-2 ml-5">
+                                <img class="w-75" src="/maket/img/send.png" alt="">
+                            </picture>
+                        </div>
+                </div>
+    </section>
+
+    <section class="example container">
+        <h4 class="text-uppercase text-center pt-5 pb-4">Наши работы</h4>
+        <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, consequatur.</p>
+        <div class="row"> 
+            <div class="col-lg-3 col-md-4 col-6 pb-3 thumb">
+                <a data-fancybox="gallery" href="/maket/img/w1.jpg"> 
+                    <img class="img-fluid" src="/maket/img/w1.jpg" alt="..."> 
+                </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6 pb-3 thumb">
+                <a data-fancybox="gallery" href="/maket/img/w2.jpg"> 
+                    <img class="img-fluid" src="/maket/img/w2.jpg" alt="..."> 
+                </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6 pb-3 thumb">
+                <a data-fancybox="gallery" href="/maket/img/w3.jpg"> 
+                    <img class="img-fluid" src="/maket/img/w3.jpg" alt="..."> 
+                </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6 pb-3 thumb">
+                <a data-fancybox="gallery" href="/maket/img/w4.jpg"> 
+                    <img class="img-fluid" src="/maket/img/w4.jpg" alt="..."> 
+                </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6 pb-3 thumb">
+                <a data-fancybox="gallery" href="/maket/img/w5.jpg"> 
+                    <img class="img-fluid" src="/maket/img/w5.jpg" alt="..."> 
+                </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6 pb-3 thumb">
+                <a data-fancybox="gallery" href="/maket/img/w6.jpg"> 
+                    <img class="img-fluid" src="/maket/img/w6.jpg" alt="..."> 
+                </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6 pb-3 thumb">
+                <a data-fancybox="gallery" href="/maket/img/w7.jpg"> 
+                    <img class="img-fluid" src="/maket/img/w7.jpg" alt="..."> 
+                </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6 pb-3 thumb">
+                <a data-fancybox="gallery" href="/maket/img/w8.jpg"> 
+                    <img class="img-fluid" src="/maket/img/w8.jpg" alt="..."> 
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="comments" class="container content">
+        <h4 class="text-uppercase text-center pt-5 pb-4">Отзывы наших клиентов</h4>
+
+        <div class="row">
+            <div class="col-12 col-md-6 col-xl-6 ">
+                <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Рукописи живет эта своих собрал журчит там большой. Рекламных, власти?</p>
+                <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Рукописи живет эта своих собрал журчит там большой. Рекламных, власти?</p>
+
+            </div>
+            
+
+            <div id="user" class="carousel slide col-12 col-md-6 col-xl-6"  data-ride="carousel">
+                
+                <a class="carousel-control-prev" href="#user" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </a>
+                  <a class="carousel-control-next" href="#user" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+
+                <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card mb-3 border-0" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="/maket/img/user1.jpg" class="card-img rounded-circle" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                    <h5 class="card-title">Константин Константин</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">20.07.2020</small></p>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="card mb-3 border-0" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="/maket/img/user2.jpg" class="card-img rounded-circle" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                    <h5 class="card-title">Александра Алкександра</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">15.05.2020</small></p>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="card mb-3 border-0" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="/maket/img/user3.jpg" class="card-img rounded-circle " alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                    <h5 class="card-title">Сергей Сергей</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">19.04.2020</small></p>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="card mb-3 border-0" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="/maket/img/user4.jpg" class="card-img rounded-circle" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                    <h5 class="card-title">Анастасия Анастасия</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">5.03.2020</small></p>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>    
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="container content">
+        <h4 class="text-uppercase text-center pt-5 pb-4">КАК НАС НАЙТИ</h4>
+        <div class="row">
+            <div class="col-12 col-lg-4 p-3 text-center">
+                <div>
+                    <h5>Адрес</h5>
+                    <p>г. Кишинев, ул. Кишинев 5/1</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-4 p-3 text-center">
+                <div>
+                    <h5>Телефоны</h5>
+                    <a href="">+373 79 123-456;</a>
+                    <a href="">+373 22 123-456</a>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-4 p-3 text-center">
+                <div>
+                    <h5>E-mail</h5>
+                    <p><a href="mail:emai8@gmail.com">email@gmail.com</a></p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer class="mt-3" >
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d18536.37541016178!2d28.848300507053814!3d47.00389398503985!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97ea77f837753%3A0xebc00490c8a8f83!2z0JTQvtC70LjQvdCwINCg0L7Qtw!5e0!3m2!1sru!2sus!4v1595591449409!5m2!1sru!2sus" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <p class="text-center p-3 bg-dark text-light small">
+            © Copyrights 2020 Elisma-Com | All rights reserved.
+        </p>
+    </footer>
+
+
+    
+ <!-- The Modal -->
+ <div class="modal fade" id="order-modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Заполните форму</h4>
+          <i type="button" class="far fa-times-circle h3" class="close" data-dismiss="modal"></i>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+            <form action="/action_page.php">
+                <div class="form-group ">
+                    <input type="text" class="form-control" placeholder="Ваше имя" id="fullname">
+                  </div>
+
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Ваш email" id="email">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Ваш номер тел." id="phone">
+                  </div>
+
+                <div class="form-group form-check">
+                    <input class="form-check-input" type="checkbox"> Запомнить меня 
+                    <a class="" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"></a>
+                </div>
+                <button type="submit" class="btn btn-info btn-md btn-block rounded-pill">ОТПРАВИТЬ</button>
+              </form>
+        </div>
+  
+        <!-- Modal footer -->
+        <!-- <div class="modal-footer">
+          footer
+        </div> -->
+
+    <!-- fancyBox JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
